@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Last of US - Série</title>
     <link rel="shortcut icon" href="./src/img/tlou-logo.png" type="image/x-icon">
+    <title>The Last of US - Série</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet"> <!-- Light 300, Regular 400, Medium 500, -->
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
 </head>
 <body>
     <main>
         <div class="carrossel">
-            <img src="./src/img/tlou-1.jpg" alt="Ellie e Joel abraçados" class="imagem">
+            <img src="./src/img/tlou-1.jpg" alt="Ellie e Joel abraçados" class="imagem ativa">
 
             <img src="./src/img/tlou-2.jpg" alt="Personagens The Last of Us" class="imagem">
 
@@ -30,22 +35,22 @@
             <div class="informacoes">
                 <img src="./src/img/logo.png" alt="logo The Last of Us" class="logo">
 
-                <p class="descricao" style="font-family: 'Poppins', sans-serif;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis laboriosam iste provident facilis, atque necessitatibus numquam incidunt ipsum earum eum quis at, esse laudantium eos ipsam quidem ipsa. Quasi, praesentium?
+                <p class="descricao">
+                    The Last of Us é uma série distópica da HBO baseada na franquia de jogos de videogame de mesmo nome criada por Neil Druckmann. O drama narra um futuro pandêmico que foi devastador para humanidade, deixando os seres humanos à beira da extinção.
                 </p>
             </div>
 
             <div class="botoes-carrossel">
-                <button class="botao">Botão</button>
-                <button class="botao">Botão</button>
-                <button class="botao">Botão</button>
-                <button class="botao">Botão</button>
-                <button class="botao">Botão</button>
-                <button class="botao">Botão</button>
+                <button class="botao selecionado"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
             </div>
         </div>
 
-        <aside>
+        <aside class="menu-lateral">
             <ul>
                 <li>
                     <a href="https://github.com/Thurcavalcante" target="_blank">
